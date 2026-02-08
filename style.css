@@ -1,0 +1,25 @@
+body, .player, .playlist {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-color: blue;
+    gap: 20px;
+}
+
+.player, .playlist {
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
