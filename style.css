@@ -19,7 +19,18 @@ body {
     padding: 10px;
 }
 
+.progress {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.active {
+    font-weight: bold;
+    color: gold;
 }

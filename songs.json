@@ -6,9 +6,69 @@
         "file": "songs/MEGALOVANIA.ogg"
     },
     {
+        "title": "ASGORE",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/ASGORE.ogg"
+    },
+    {
+        "title": "Battle against a true hero",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/battle against a true hero.ogg"
+    },
+    {
+        "title": "CORE",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/CORE.ogg"
+    },
+    {
+        "title": "POWER OF NEO (unused)",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/POWER OF NEO (unused).mp3"
+    },
+    {
+        "title": "POWER OF SPAMTON (unused)",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/POWER OF SPAMTON (unused).mp3"
+    },
+    {
+        "title": "BIG SHOT",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/BIG SHOT.ogg"
+    },
+    {
+        "title": "THE WORLD REVOLVING",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/THE WORLD REVOLVING.ogg"
+    },
+    {
+        "title": "Black knife",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/Black knife.ogg"
+    },
+    {
         "title": "Rude buster",
         "artist": "Toby Fox",
         "image": "",
         "file": "songs/Rude buster.ogg"
+    },
+    {
+        "title": "Ruder buster",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/Ruder buster.ogg"
+    },
+    {
+        "title": "Rouxls kaard battle (unused)",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/Rouxls kaard battle (unused).mp3"
     }
 ]
