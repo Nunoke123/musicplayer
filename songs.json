@@ -70,5 +70,23 @@
         "artist": "Toby Fox",
         "image": "",
         "file": "songs/Rouxls kaard battle (unused).mp3"
+    },
+    {
+        "title": "Savior Of The Waking World",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/Savior Of The Waking World.mp3"
+    },
+    {
+        "title": "Penumbra Phantasm",
+        "artist": "Toby Fox",
+        "image": "",
+        "file": "songs/Penumbra Phantasm.mp3"
+    },
+    {
+        "title": "Doctor",
+        "artist": "George Buzinkai",
+        "image": "",
+        "file": "songs/Doctor.mp3"
     }
 ]
