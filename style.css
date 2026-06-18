@@ -5,6 +5,7 @@ body, .player, .playlist {
     justify-content: start;
     align-items: center;
     text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans";
 }
 
 body {
