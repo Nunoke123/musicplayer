@@ -9,13 +9,13 @@ body, .player, .playlist {
 }
 
 body {
-    background-color: blue;
+    background-color: green;
     gap: 20px;
 }
 
 .player, .playlist {
-    background-color: cornflowerblue;
-    border: 3px solid black;
+    background-color: limegreen;
+    border: 3px solid white;
     border-radius: 10px;
     padding: 10px;
 }
