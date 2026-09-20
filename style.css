@@ -1,37 +1,113 @@
-body, .player, .playlist {
+body {
     color: white;
+    background-color: green;
+    font-family: "Comic Sans MS", "Comic Sans";
+    margin: 0px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-self: center;
+}
+
+section, main {
     display: flex;
     flex-direction: column;
-    justify-content: start;
     align-items: center;
-    text-align: center;
-    font-family: "Comic Sans MS", "Comic Sans";
 }
 
-body {
-    background-color: green;
-    gap: 20px;
+main img {
+    max-width: min(250px, 50vw);
 }
 
-.player, .playlist {
-    background-color: limegreen;
-    border: 3px solid white;
-    border-radius: 10px;
-    padding: 10px;
+section img {
+    max-width: min(200px, 20vw);
 }
 
-.progress {
+a {
+    color: blue;
+}
+
+#albums, #search {
+    text-align: left;
+}
+
+#search input {
+    font: inherit;
+}
+
+#progressRow {
     display: flex;
-    flex-direction: row;
-    gap: 5px;
+    align-items: center;
+    gap: 0.5rem;
+    width: min(300px, 80vw);
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+#progress {
+    flex: 1;
+    min-width: 0;
+    accent-color: white;
 }
 
-.active {
-    font-weight: bold;
+#playlist li.current, #playlist li.current a {
     color: gold;
+    font-weight: bold;
+    /* list-style-type: "▶ "; */
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+/* Bottom bar is only for mobile */
+#tabs {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    body {
+        margin: 0 auto;
+        justify-content: center;
+        padding-bottom: 4rem; /* room for the bottom bar */
+    }
+
+    body > section, main {
+        width: 100%;
+    }
+
+    /* Show one panel at a time */
+    body:not([data-tab="albums"]) #albums,
+    body:not([data-tab="playlist"]) main,
+    body:not([data-tab="search"]) #search {
+        display: none;
+    }
+
+    #tabs {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: green;
+        border-top: 2px solid white;
+    }
+
+    #tabs button {
+        flex: 1;
+        padding: 0.9rem 0;
+        background: none;
+        border: none;
+        color: inherit;
+        font: inherit;
+    }
+
+    body[data-tab="albums"] #tabs [data-tab="albums"],
+    body[data-tab="playlist"] #tabs [data-tab="playlist"],
+    body[data-tab="search"] #tabs [data-tab="search"] {
+        text-decoration: underline;
+    }
+
+    #albums img {
+        max-width: min(200px, 40vw);
+    }
 }
