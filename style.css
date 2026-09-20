@@ -64,7 +64,7 @@ h1 {
     display: none;
 }
 
-@media (max-width: 700px) {
+@media screen and (orientation: portrait) {
     body {
         margin: 0 auto;
         justify-content: center;
