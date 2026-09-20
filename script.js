@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Init
     const albumsHTML = albums.innerHTML; // remembered so the back button can restore it
+    alert(window.innerWidth + "px wide");
 
     // queue = the songs currently in the playlist (saved by title)
     const savedTitles = JSON.parse(localStorage.getItem("playlist")) || [];
