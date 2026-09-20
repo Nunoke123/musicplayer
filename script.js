@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Savior of the Dreaming Dead",
             artist: "Toby Fox",
             cover: "covers/homestuck.webp",
-            file: "songs/Umbral Ultimatum.mp3",
+            file: "songs/Savior of the Dreaming Dead.mp3",
             album: "Homestuck"
         },
     ];
